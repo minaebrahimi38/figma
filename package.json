@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss/main.scss -o css/ -r",
+    "scssMinify": "node-sass -w scss/main.scss -o css/ -r --output-style compressed",
+    "setting": "node-sass -w scss/setting/setting.scss -o css/setting -r ",
+    "Desktop": "node-sass -w scss/Desktop/Desktop.scss -o css/Desktop -r ",
+    "Tablet": "node-sass -w scss/Tablet/Tablet.scss -o css/Tablet -r ",
+    "Mobile": "node-sass -w scss/Mobile/Mobile.scss -o css/Mobile -r "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
